@@ -36,7 +36,7 @@ except (KeyError, ValueError):
 
 trust_headers = 'false'
 host = "localhost"
-public_url = "http://cf32.herokuapp.com"
+public_url = URL("http://cf32.herokuapp.com")
 
 session_name = os.environ.get("TG_SESSION_NAME", "tgfilestream")
 
