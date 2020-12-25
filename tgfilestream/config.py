@@ -36,7 +36,7 @@ except (KeyError, ValueError):
 
 trust_headers = 'false'
 host = "localhost"
-public_url = URL("http://cf32.herokuapp.com:8080")
+public_url = URL("http://99.79.161.5:8080")
 
 session_name = os.environ.get("TG_SESSION_NAME", "tgfilestream")
 
@@ -61,4 +61,4 @@ except ValueError:
 start_message = "Send an image or file to get a link to download it"
 group_chat_message = os.environ.get("TG_G_C_MESG", "Sorry. But, I only work in private.")
 
-tg_bot_token = "1225137582:AAGpFuy-wN75GSuZxs2N3DGCoyzBeoRsnbU"
+tg_bot_token = 1474320325:AAH0Vhrfp17020xgpOFMffzjfNN6TGi4E2Y"
